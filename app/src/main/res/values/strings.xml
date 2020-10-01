@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Quarantine Tracker</string>
+    <string name="fill_symptoms">Add your symptoms for the day</string>
+    <string name="fever_name">Fever</string>
+    <string name="tiredness_name">Tiredness</string>
+    <string name="cough">Cough</string>
+    <string name="runnynose">Runny Nose</string>
+    <string name="throat_pain">Sore Throat</string>
+    <string name="breath_name">Breathing difficulty</string>
+    <string name="no_taste_name">Τastelessness</string>
+    <string name="no_smell_name">Anosmia</string>
+    <string name="diarrhoea_name">Diarrhoea</string>
+    <string name="headache_name">Headache</string>
+    <string name="another">Write other symptoms here...</string>
+    <string name="bellyache">Bellyache</string>
+    <string name="diary_name">CALENDAR</string>
+    <string name="contactsCheck">Include close contacts</string>
+    <string name="sumbit_name">Submit</string>
+    <string name="contacts_name">CLOSE CONTACTS</string>
+    <string name="fullname_name">Fullname</string>
+    <string name="add_name">ADD</string>
+    <string name="del_last_con_name">DELETE \n LAST ADDITION</string>
+    <string name="symptoms_name">SYMPTOMS</string>
+    <string name="contacts_name_1">CLOSE CONTACTS:</string>
+    <string name="select_dates_name">SELECT DATES</string>
+    <string name="send_name">SEND</string>
+    <string name="save_name">SAVE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="edit_data">Edit personal information:</string>
+    <string name="name">Name:</string>
+    <string name="email">E-mail:</string>
+    <string name="surname">Last Name:</string>
+    <string name="home">HOME</string>
+    <string name="fill_contact">Add close contacts of the day</string>
+    <string name="no_symptoms">NO SYMPTOMS</string>
+    <string name="no_contacts">NO CLOSE CONTACTS</string>
+    <string name="fail">FAILED TO SEND MESSAGE. PLEASE TRY AGAIN</string>
+    <string name="info_saved">YOUR PERSONAL INFORMATION IS SAVED</string>
+    <string name="symptoms_saved">YOUR SYMPTOMS ARE SAVED</string>
+
+
+</resources>

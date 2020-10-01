@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Καραντίνα Tracker</string>
+    <string name="fill_symptoms">Συμπληρώστε τα συμπτώματα σας</string>
+    <string name="fever_name">Πυρετός</string>
+    <string name="tiredness_name">Κόπωση</string>
+    <string name="cough">Βήχας</string>
+    <string name="runnynose">Καταρροή</string>
+    <string name="throat_pain">Πονόλαιμος</string>
+    <string name="breath_name">Δυσκολία στην αναπνοή</string>
+    <string name="no_taste_name">Αγευσία</string>
+    <string name="no_smell_name">Αοσμία</string>
+    <string name="diarrhoea_name">Διάροια</string>
+    <string name="headache_name">Πονοκέφαλος</string>
+    <string name="another">Συμπληρώστε άλλα συμπτώματα εδώ...</string>
+    <string name="bellyache">Πονόκοιλος</string>
+    <string name="diary_name">ΗΜΕΡΟΛΟΓΙΟ</string>
+    <string name="contactsCheck">Να συμπεριληφθούν οι στενές επαφές στο μήνυμα</string>
+    <string name="sumbit_name">Υποβολή</string>
+    <string name="contacts_name">ΣΤΕΝΕΣ ΕΠΑΦΕΣ</string>
+    <string name="fullname_name">Ονοματεπώνυμο</string>
+    <string name="add_name">Προσθήκη</string>
+    <string name="del_last_con_name">ΔΙΑΓΡΑΦΗ \n ΤΕΛΕΥΤΑΙΑΣ ΠΡΟΣΘΗΚΗΣ</string>
+    <string name="symptoms_name">Συμπτώματα</string>
+    <string name="contacts_name_1">ΣΤΕΝΕΣ ΕΠΑΦΕΣ:</string>
+    <string name="select_dates_name">ΕΠΙΛΕΞΤΕ ΗΜΕΡΟΜΗΝΙΕΣ</string>
+    <string name="send_name">ΑΠΟΣΤΟΛΗ</string>
+    <string name="save_name">ΑΠΟΘΗΚΕΥΣΗ</string>
+    <string name="settings">ΡΥΘΜΙΣΕΙΣ</string>
+    <string name="edit_data">Επεξεργασία Στοιχείων:</string>
+    <string name="name">Όνομα:</string>
+    <string name="email">E-mail:</string>
+    <string name="surname">Επώνυμο:</string>
+    <string name="home">ΑΡΧΙΚΗ</string>
+    <string name="fill_contact">Συμπληρώστε τις στενές επαφές σας για την ημέρα</string>
+    <string name="no_symptoms">ΔΕΝ ΥΠΑΡΧΟΥΝ ΣΥΜΠΤΩΜΑΤΑ</string>
+    <string name="no_contacts">ΔΕΝ ΥΠΑΡΧΟΥΝ ΣΤΕΝΕΣ ΕΠΑΦΕΣ</string>
+    <string name="fail">ΑΠΟΤΥΧΙΑ ΑΠΟΣΤΟΛΗΣ. ΠΑΡΑΚΑΛΩ ΠΡΟΣΠΑΘΗΣΤΕ ΞΑΝΑ</string>
+    <string name="info_saved">ΤΑ ΣΤΟΙΧΕΙΑ ΣΑΣ ΑΠΟΘΗΚΕΥΤΗΚΑΝ</string>
+    <string name="symptoms_saved">ΤΑ ΣΥΜΠΤΩΜΑΤΑ ΣΑΣ ΑΠΟΘΗΚΕΥΤΗΚΑΝ</string>
+
+
+
+</resources>
