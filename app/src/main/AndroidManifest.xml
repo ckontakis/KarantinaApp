@@ -6,6 +6,7 @@
 
 
     <application
+
         tools:ignore="LockedOrientationActivity"
         android:allowBackup="true"
         android:icon="@drawable/karantinaimage"
@@ -14,6 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:configChanges="locale" >
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4995592147062307~3357661089"/>
+
         <activity android:name=".Send"/>
         <activity android:name=".Contacts"/>
         <activity android:name=".Symptoms"/>

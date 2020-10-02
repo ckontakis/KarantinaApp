@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
@@ -20,6 +22,7 @@ public class Settings extends Activity {
     EditText emailEditText; // email
     Person george; // αντικείμενο για την αναπαράσταση του χρήστη
     MyDataHandler myDataHandler = new MyDataHandler(this,null,null,1); // δημιουργία αντικειμένου ΜyDataHandler
+    private AdView mAdView;
 
 
     @Override
@@ -28,6 +31,9 @@ public class Settings extends Activity {
         setContentView(R.layout.activity_settings);
 
 
+        mAdView = findViewById(R.id.adViewSettings);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         // μπάρα στο κάτω μέρος της οθόνης
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.nav_view);

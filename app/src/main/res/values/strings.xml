@@ -37,6 +37,6 @@
     <string name="fail">FAILED TO SEND MESSAGE. PLEASE TRY AGAIN</string>
     <string name="info_saved">YOUR PERSONAL INFORMATION IS SAVED</string>
     <string name="symptoms_saved">YOUR SYMPTOMS ARE SAVED</string>
-
+    <string name="no_close_contacts">YOU HAVE NOT ADD CLOSE CONTACTS</string>
 
 </resources>

@@ -82,5 +82,4 @@ public class Diary extends AppCompatActivity {
         i.putExtra("date",date);  //περνάμε την ημέρα που επιλέχθηκε
         startActivity(i);
     }
-
 }

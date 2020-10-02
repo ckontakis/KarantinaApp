@@ -26,13 +26,15 @@
 
     <TextView
         android:id="@+id/textView_diary"
-        android:layout_width="151dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="80dp"
         android:text="@string/diary_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,26 +42,26 @@
         android:id="@+id/datePicker2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="188dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_diary" />
 
     <ImageButton
         android:id="@+id/imageButton_submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
         android:layout_marginBottom="32dp"
         android:background="@color/white"
         android:onClick="viewSymptoms"
         android:tint="@color/colorPrimary"
         app:layout_constraintBottom_toTopOf="@+id/nav_view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/datePicker2"
-        app:layout_constraintVertical_bias="0.961"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ic_submit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

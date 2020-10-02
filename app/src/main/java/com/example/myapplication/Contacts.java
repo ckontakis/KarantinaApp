@@ -58,7 +58,7 @@ public class Contacts extends AppCompatActivity {
         //παίρνουμε την ημερομηνία που έχει επιλεγεί και εμφανίζουμε κατάλληλο μήνυμα
         Intent i=getIntent();
         date=i.getStringExtra("date");
-        String text=getString(R.string.fill_contact)+date;
+        String text=getString(R.string.fill_contact)+ " " + date;
         TextView textView=(TextView)findViewById(R.id.textView_contacts);
         textView.setText(text);
 
@@ -190,7 +190,7 @@ public class Contacts extends AppCompatActivity {
         }
         else // αν δεν έχουν προστεθεί επαφές.
         {
-            Toast.makeText(this,"ΔΕΝ ΕΧΕΤΕ ΠΡΟΣΘΕΣΕΙ ΕΠΑΦΕΣ ΑΚΟΜΑ!",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,getString(R.string.no_close_contacts),Toast.LENGTH_LONG).show();
         }
     }
 }

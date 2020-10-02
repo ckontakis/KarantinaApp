@@ -69,7 +69,7 @@ public class Symptoms extends AppCompatActivity {
         //παίρνουμε την ημερομηνία που επιλέχθηκε και εμφανίζουμε το κατάλληλο μήνυμα
         Intent i=getIntent();
         date=i.getStringExtra("date");
-        String text=getString(R.string.fill_symptoms)+date;
+        String text=getString(R.string.fill_symptoms)+ " " + date;
         TextView textView=findViewById(R.id.textView_symptoms);
         textView.setText(text);
 
@@ -183,7 +183,7 @@ public class Symptoms extends AppCompatActivity {
             dbHandler.replaceSymptoms(illness,date);
         }
 
-        Toast.makeText(this,"ΤΑ ΣΥΜΠΤΩΜΑΤΑ ΣΑΣ ΥΠΟΒΛΗΘΗΚΑΝ",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,getString(R.string.symptoms_saved),Toast.LENGTH_LONG).show();
     }
 
 }

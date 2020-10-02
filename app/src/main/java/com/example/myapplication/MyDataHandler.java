@@ -282,7 +282,4 @@ public class MyDataHandler extends SQLiteOpenHelper {
         db.close();
         return result;
     }
-
-
 }
-
